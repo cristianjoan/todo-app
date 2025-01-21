@@ -35,12 +35,6 @@ import { TodoSignalsService } from '../../services/todo-signals.service';
       >
         <trash-outline-icon [size]="20" />
       </button>
-      <button
-        (click)="remove.emit(todo.id)"
-        class="px-1 py-1 text-gray-600 hover:bg-gray-100 rounded"
-      >
-        <pencil-square-outline-icon [size]="20" />
-      </button>
     </div>
   `,
 })
